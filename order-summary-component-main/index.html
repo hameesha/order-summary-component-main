@@ -9,6 +9,7 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -16,22 +17,41 @@
 </head>
 <body>
 
-  Order Summary
+  <!-- <img src="./images/illustration-hero.svg" alt="" sizes="" srcset="">
+  <img src="./images/pattern-background-desktop.svg" alt="">
+  <img src="./images/pattern-background-mobile.svg" alt=""> -->
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+  <div class="container">
 
-  Annual Plan
-  $59.99/year
+    <div class="card">
+      <div class="card-image">
+        <img src="./images/illustration-hero.svg" alt="a guy listining to music">
+      </div>
+      <div class="card-body">
+          <h2 class="card-title">Order Summary</h2>
+          <p class="card-description"> You can now listen to millions of songs, audiobooks, and podcasts on any 
+            device anywhere you like!</p>
+          <div class="card-plan">
+            <div class="plan">
+              <div class="icon">
+                <img src="./images/icon-music.svg" alt="Music icon">
+              </div>
+              <div class="plan-sub">
+                <h3 class="plan-title">Annual Plan</h3>
+                <p>$59.99/year</p>
+              </div>
+            </div>
+            <a href="">Change</a>
+          </div>
+          <button class="card-button">Proceed to Payment</button>
+          <p class="cancel-link">Cancel Order</p>
+      </div>
+    </div>
 
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hameesha Rantharu</a>.
+    </div>
   </div>
 </body>
 </html>
